@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav1 {
+    margin: 10px;
+    justify-content: space-evenly;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+#nav1 li :hover {
+    border-bottom: 2px solid white;
+}
+
+#home{
+    background-image: url(./assets/images/240_F_492229389_5ve1bCKgYrLRHpCj3o4FAzz60efaZgG0.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 85vh;
+    background-size: cover;
+}
+
+#home1 {
+     margin-top:150px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+#home11{
+    font-size:3.5rem;
+}
+#home12{
+    font-size:3rem;
+}
+
+#about {
+    margin-top: 20px;
+}
+
+.about1 {
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.about1::after {
+    content: 'who i am';
+    position: absolute;
+    left: 50%;
+    bottom: -2rem;
+    font-size: 1.3rem;
+    color: crimson;
+    background-color: white;
+    transform: translateX(-50px);
+    padding: 0px 5px;
+
+}
+
+.about1::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: black;
+    bottom: -1.3rem;
+    transform: translateX(-50%);
+    left: 50.2%;
+
+}
+.lorem{
+    font-size: 1.2rem;
+}
+
+#btn1 {
+    font-size: 25px;
+    font-weight: 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#btn1:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: crimson;
+}
+
+#service {
+    background-color: black;
+    margin-top: 120px;
+
+}
+
+.service1 {
+    color: white;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-top: 10px;
+}
+
+.service1::after {
+    content: 'who i am';
+    position: absolute;
+    left: 50.55%;
+    bottom: -2rem;
+    font-size: 1.3rem;
+    color: crimson;
+    background-color: black;
+    transform: translateX(-50px);
+    padding: 0px 5px;
+}
+ .service1::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    bottom: -1.3rem;
+    transform: translateX(-50%);
+    left: 50.2%;
+}
+
+#service2 {
+    background-color: #222;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+#service2:hover {
+    background-color: crimson;
+    border: 2px 2px 2px 2px solid black;
+    transform: scale(1.1);
+
+}
+
+#service2 i {
+    color: white;
+}
+
+
+
+.skills1 {
+    position: relative;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.skills1::after {
+    content: 'who i am';
+    position: absolute;
+    left: 50%;
+    bottom: -2rem;
+    font-size: 1.3rem;
+    color: crimson;
+    background-color: white;
+    transform: translateX(-50px);
+    padding: 0px 5px;
+
+}
+
+.skills1::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: black;
+    bottom: -1.3rem;
+    transform: translateX(-50%);
+    left: 50.2%;
+
+}
+
+.ex {
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: start;
+}
+
+.ex1 {
+    font-size: 1.4rem;
+    text-align: start;
+    font-family: poppins, sans-serif;
+
+}
+
+#per {
+    text-align: start;
+    font-family: poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#sen {
+    font-size: 1.2rem;
+    color: crimson;
+}
+
+.card {
+    border: 1px solid black;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+#cardd {
+    background-color: black;
+    color: aliceblue;
+}
+
+#card-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btn-2 {
+    background-color: crimson;
+    font-weight: bold;
+}
+
+#btn-2:hover {
+    background-color: aliceblue;
+}
+
+.imgg {
+    transition-duration: 0.3s;
+}
+
+.imgg:hover {
+    transform: scale(1.1);
+}
+
+.over-flow {
+    overflow: hidden;
+}
+
+#contact-me {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+
+.contact1 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    position: relative;
+}
+
+.contact1::after {
+    content: 'who i am';
+    position: absolute;
+    left: 50%;
+    bottom: -2rem;
+    font-size: 1.3rem;
+    color: crimson;
+    background-color: black;
+    transform: translateX(-50px);
+    padding: 0px 5px;
+
+}
+
+.contact1::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    bottom: -1.3rem;
+    transform: translateX(-50%);
+    left: 50.2%;
+}
+
+#contact {
+    text-align: start;
+}
+
+.add {
+    margin-top: 20px;
+}
+.add1{
+    font-family:cursive;
+    font-size: 1.5rem;
+}
+.add2{
+    color:rgb(181, 177, 177);
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+
+@media screen and (max-width:768px) {
+.cardd{
+    margin: 20px;
+}
+.card{
+    margin: 20px;
+}
+.about1{
+    font-size: 2.5rem;
+}
+.service1{
+    font-size: 2.5rem;
+}
+.contact1{
+    font-size: 2.5rem;
+}
+.add1{
+    font-size: 1rem;
+}
+.add2{
+    font-size: 1rem;
+}
+#home11{
+   font-size:2rem;
+}
+#home12{
+font-size: 1.5rem;
+}
+#home{
+    min-height: 50vh; 
+}
+#img1{
+width: 150px;
+height: auto;
+margin-bottom: 30px;
+}
+#img2{
+    margin-top: 20px;
+}
+#service{
+    margin-top: 20px;
+}
+#contact-me{
+    margin-top: 20px;
+}
+}
